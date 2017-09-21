@@ -5,7 +5,7 @@ function takeANumber(array, name){
 }
 
 function nowServing(array){
-    
+
     if (array.length > 0){
         var name = array.shift()
         return `Currently serving ${name}`
