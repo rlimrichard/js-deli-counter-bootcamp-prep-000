@@ -19,7 +19,7 @@ function currentLine (array){
         for (var i=0; i<array.length ; i++){
             msg += `${i+1}. ${array[i]}${i<array.length-1 ? ',' : ''}`
         }
-        return msg            
+        return msg
     }
     return "The line is currently empty."
 }
