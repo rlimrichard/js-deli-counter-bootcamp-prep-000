@@ -15,9 +15,9 @@ function nowServing(array){
 
 function currentLine (array){
     if (array.length > 0){
-        var msg = "The line is currently: "
+        var msg = "The line is currently:"
         for (var i=0; i<array.length ; i++){
-            msg += `${i+1}. ${array[i]}${i<array.length-1 ? ',' : ''}`
+            msg += ` ${i+1}. ${array[i]}${i<array.length-1 ? ',' : ''}`
         }
         return msg
     }
